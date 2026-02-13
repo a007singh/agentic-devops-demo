@@ -9,5 +9,8 @@ public class MathService {
         return a - b;
     }
     
-    // TODO: Add multiplication logic here
+    // New feature added by Developer
+    public int multiply(int a, int b) {
+        return a * b;
+    }
 }
