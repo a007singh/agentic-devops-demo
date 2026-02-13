@@ -13,4 +13,9 @@ public class MathService {
     public int multiply(int a, int b) {
         return a * b;
     }
+	
+	// New feature: Division
+	public int divide(int a, int b) {
+		return a / b;
+	}
 }
