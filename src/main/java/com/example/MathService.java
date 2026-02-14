@@ -9,4 +9,9 @@ public class MathService {
         return a - b;
     }
     
+    // New feature added by Developer
+    public int multiply(int a, int b) {
+        return a * b;
+    }
+	
 }
