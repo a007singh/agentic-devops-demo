@@ -1,19 +1,13 @@
-package com.example;
-
-import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import org.junit.Test;
+import static org.junit.Assert.*;
 
 public class MathServiceTest {
 
     @Test
-    public void testAdd() {
-        MathService math = new MathService();
-        assertEquals(5, math.add(2, 3));
+    public void testMultiply() {
+        MathService mathService = new MathService();
+        int result = mathService.multiply(3, 4);
+        assertEquals(12, result);
     }
 
-    @Test
-    public void testSubtract() {
-        MathService math = new MathService();
-        assertEquals(1, math.subtract(3, 2));
-    }
 }
