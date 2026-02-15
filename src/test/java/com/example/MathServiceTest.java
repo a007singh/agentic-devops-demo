@@ -16,4 +16,12 @@ public class MathServiceTest {
         MathService math = new MathService();
         assertEquals(1, math.subtract(3, 2));
     }
+
+    @Test
+    public void testMultiply() {
+        MathService math = new MathService();
+        assertEquals(6, math.multiply(2, 3));
+        assertEquals(0, math.multiply(0, 99));
+        assertEquals(1, math.multiply(5, 0));
+    }
 }
