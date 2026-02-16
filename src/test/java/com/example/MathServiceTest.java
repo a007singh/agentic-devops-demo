@@ -17,4 +17,9 @@ public class MathServiceTest {
         assertEquals(1, math.subtract(3, 2));
     }
 
+    @Test
+    public void testMultiply() {
+        MathService math = new MathService();
+        assertEquals(6, math.multiply(2, 3));
+    }
 }
