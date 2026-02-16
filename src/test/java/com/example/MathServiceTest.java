@@ -1,7 +1,7 @@
 package com.example;
 
 import org.junit.jupiter.api.Test;
-import static org.junit.jupiter.api.Assertions.*;
+import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class MathServiceTest {
 
@@ -17,4 +17,9 @@ public class MathServiceTest {
         assertEquals(1, math.subtract(3, 2));
     }
 
+    // @Test
+    // public void testMultiply() {
+    //     MathService math = new MathService();
+    //     assertEquals(6, math.multiply(2, 3));
+    // }
 }
